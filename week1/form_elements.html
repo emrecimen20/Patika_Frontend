@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset style="border-radius: 15px;">
+            <legend>Personal İnformation :</legend>
+            <div>
+                <label for="name">Name :</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="surname">Surname :</label>
+                <input type="text" id="surname">
+            </div>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label for="gender">Gender :</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <div>
+                <label for="fruit">Fruit :</label>
+                <select value="fruit">
+                    <option>Choose..</option>
+                    <optgroup label="Fruits">
+                        <option value="apple">Apple</option>
+                        <option value="banana">Banana</option>
+                        <option value="strawberry">Strawberry</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label style="display: block; padding-bottom: 10px;" for="message">Write your message :</label>
+                <textarea style="width: 300px; height: 100px;" id="message"></textarea >
+            </div>
+            <div>
+                <button style="width: 100px; height: 40px;">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
