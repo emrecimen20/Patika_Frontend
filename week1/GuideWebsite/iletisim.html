@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İletişim</title>
+    <style>
+        .linkitem{
+           padding-left: 40px;
+       }
+       a{
+           font-size: large;
+           color: brown;
+       }
+       .formdiv{
+        padding-bottom: 15px;
+       }
+   </style>
 </head>
 <body>
-    
+    <div>
+        <div style="padding:0px 50px 0px 50px;">
+            <div style="background-color: bisque; height: 45px; display: flex; align-items: center;"> 
+                <ol style="list-style-type: none; display: flex;">
+                <li class="linkitem"><a href="index.html">Anasayfa</a> </li>
+                <li class="linkitem"><a href="servisler.html">Servisler</a></li>
+                <li class="linkitem"><a href="iletisim.html">İletişim</a></li>
+                <li class="linkitem"><a href="hakkinda.html">Hakkında</a></li>
+            </ol> 
+        </div>
+        <div>
+            <h2>İletişim Bilgilerimiz</h2>
+            <p>
+                Sizlerle etkili ve hızlı bir şekilde iletişim kurmak bizim önceliğimizdir. Sorularınızı yanıtlamak, ihtiyaçlarınızı karşılamak ve size en iyi hizmeti sunmak için buradayız. Aşağıda yer alan iletişim bilgileri aracılığıyla bizimle kolayca iletişime geçebilir, hizmetlerimiz hakkında bilgi alabilir veya destek talebinde bulunabilirsiniz.
+            </p>
+
+            <ul>
+                <li>Adres: Karanfil Soak</li>
+                <li>Telefon: 0555-555-55-55</li>
+                <li>E-posta: emrebt@emre.com</li>
+            </ul>
+        </div>
+        <div>
+            <form style="border: 1px solid; width: 400px; padding: 30px;">
+                <div class="formdiv">
+                    <label for="fullname">Ad, Soyad :</label>
+                    <input type="text" id="fullname">
+                </div>
+              <div class="formdiv">
+                <label for="eposta">E-mail :</label>
+                <input type="email" id="eposta">
+              </div>
+              <div class="formdiv">
+                <textarea style="width: 300px; height: 150px;" id="">Not Bırakın...</textarea>
+              </div>
+              <div class="formdiv">
+                <button>Gönder</button>
+              </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
