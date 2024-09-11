@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   margin-top: 10%;
+}
+
+.container h2,h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    color: orange;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: rgb(38, 34, 34);
+}
+.time-container{
+    color: orange;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: large;
+}
+.paragraph{
+    font-size: 1.3rem;
+    text-align: center;
+    color: orange;
+}
+.span{
+    font-weight: bold;
+}
