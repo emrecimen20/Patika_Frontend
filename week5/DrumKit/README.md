@@ -11,4 +11,6 @@ This project is a web application that allows you to play various drum sounds. U
 
 To get the project up and running, follow these steps:
 
-
+1. **Clone the Repository**: Download the project to your local machine. You can do this using Git:
+   ```bash
+   git clone https://github.com/emrecimen20/Patika_Frontend/tree/main/week5/DrumKit
