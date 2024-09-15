@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(67, 67, 125);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.header{
+    font-size: xx-large;
+    font-family: "Metal Mania", sans-serif;
+    
+}
+.keypad-container{
+    display: flex;
+    gap: 17px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 30px;
+    font-family: "Metal Mania", sans-serif;
+}
+.key{
+    padding: 15px;
+    border: 1px solid black;
+    background-color: rgb(127, 31, 127);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.key:active{
+backdrop-filter: inherit;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
